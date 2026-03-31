@@ -17,6 +17,10 @@ function App() {
         <button onClick={() => setCount(0)}>Reset</button>
 
       </div>
+      <footer>
+  <p>Desenvolvido para atividade de Git</p>
+</footer>
+
     </div>
   );
 }
