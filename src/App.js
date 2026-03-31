@@ -14,6 +14,8 @@ function App() {
       <div className="buttons">
         <button onClick={() => setCount(count + 1)}>Aumentar</button>
         <button onClick={() => setCount(count - 1)}>Diminuir</button>
+        <button onClick={() => setCount(0)}>Reset</button>
+
       </div>
     </div>
   );
