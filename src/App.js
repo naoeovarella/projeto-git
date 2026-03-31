@@ -16,12 +16,14 @@ function App() {
         <button onClick={() => setCount(count + 1)}>Aumentar</button>
         <button onClick={() => setCount(count - 1)}>Diminuir</button>
         <button onClick={() => setCount(0)}>Reset</button>
-
+        {count > 10 && <p>Contador maior que 10!</p>}
       </div>
+
       <footer>
   <p>Desenvolvido para atividade de Git</p>
-</footer>
-<p>Data: {new Date().toLocaleDateString()}</p>
+      </footer>
+
+      <p>Data: {new Date().toLocaleDateString()}</p>
 
     </div>
   );
