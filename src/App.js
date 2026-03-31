@@ -5,6 +5,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
+    
     <div className="container">
       <h1>Projeto Patrick</h1>
       <p>Projeto para atividade de versionamento com Git.</p>
@@ -20,6 +21,7 @@ function App() {
       <footer>
   <p>Desenvolvido para atividade de Git</p>
 </footer>
+<p>Data: {new Date().toLocaleDateString()}</p>
 
     </div>
   );
